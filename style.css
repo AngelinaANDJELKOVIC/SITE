@@ -98,7 +98,7 @@ header nav a {
 /*SECTION 1*/
 
 #slide1 {
-	background:url(https://media.istockphoto.com/id/1015738278/fr/vectoriel/mer-vague-sans-soudure-jet-horizontal-dans-un-style-oriental-vintage-ukiyo-e-illustration.jpg?s=170667a&w=0&k=20&c=a7l8Nn2MWD9fBUvvJEgKJ5cgCgLRSBYHu4OKPNSMAHo=) center 0 no-repeat fixed;	
+	background:url(https://media.istockphoto.com/id/1015738278/fr/vectoriel/mer-vague-sans-soudure-jet-horizontal-dans-un-style-oriental-vintage-ukiyo-e-illustration.jpg?s=170667a&w=0&k=20&c=a7l8Nn2MWD9fBUvvJEgKJ5cgCgLRSBYHu4OKPNSMAHo=) center 0 no-repeat fixed;
     background-size: 100%;
     padding-top:100px;
 }
@@ -373,44 +373,21 @@ h2.comp {
 
 
 /*SECTION PROJETS*/
-.fondprojet {
-    background-color: #f9f9fb;
-}
-.video1 {
-    width: 619px;
-}
-
-.video2 {
-    width: 619px;
-}
-
-.fondjaune {
-    background: #F7F6CF;
-}
-
-.projeth2 {
-    text-align: center;
-    width: 100%;
-}
-
-#KOUKAKI {
-    display: flex;
-    flex-direction: row;
-}
-
-#PLANTY {
-    display: flex;
-    flex-direction: row;
-}
-
-.h4K {
-    text-align: center;
+.tlp-portfolio-container .tlp-single-item {
     background-image: linear-gradient(15deg, #EDEFEE 0%, #18A7BE 150%);
 }
+.mejs-container .mejs-controls, .mejs-embed {
+    background: white;
+}
+.wp-video-shortcode video, video.wp-video-shortcode {
+    width: 800px;
+    height: 478.241px;
+}
 
-.h4P {
+h2.projeth2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
-    background-image: linear-gradient(15deg, #EDEFEE 0%, #18A7BE 150%);
 }
 /*SECTION CONTACT*/
 
@@ -580,20 +557,6 @@ footer nav a {
         top: 207px;
         left: 344px;
     }
-    #KOUKAKI {
-        display: flex;
-        flex-direction: column;
-    }
-    #PLANTY {
-        display: flex;
-        flex-direction: column;
-    }
-    .video1 {
-        width: 100%;
-    }
-    .video2 {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 959px) { 
@@ -616,102 +579,291 @@ footer nav a {
     }
 }
 
-@media screen and (max-width: 782px) { 
+@media screen and (max-width: 787px) { 
     .banner {
         top: 164px;
         left: 270px;
     }
 section#contact {
-    width: 820px;
+    width:782px;
 }
 .projeth2 {
-    width: 820px;
-}
-.video1 {
-    width:820px;
-}
-.video2 {
-    width:820px;
+    width:782px;
 }
 #slide1 {
-    width:820px;
+    width:782px;
 }
 #idvideo {
-    width:820px;
+    width:782px;
 }
 section#competence {
-    width: 820px;
-}
-.h4K {
-    width: 820px;
-}
-.h4P {
-    width: 820px;
+    width:782px;
 }
 footer {
-    width: 820px;
+    width:782px;
 }
 .bannerimg {
     width:300px;
 }
 }
 
-@media screen and (max-width: 700px) { 
-    .banner {
-        top: 155px;
-        left: 211px;
+@media screen and (max-width: 764px) { 
+section#contact {
+    width:764px;
 }
-    .video2 {
-    width: 820px;
+.projeth2 {
+    width:764px;
 }
-.video1 {
-    width: 820px;
+#slide1 {
+    width:764px;
+}
+#idvideo {
+    width:764px;
+}
+section#competence {
+    width:764px;
+}
+footer {
+    width:764px;
+}
+#moi {
+    width:764px;
 }
 }
+
+@media screen and (max-width: 731px) { 
+    section#contact {
+        width:731px;
+    }
+    .projeth2 {
+        width:731px;
+    }
+    #slide1 {
+        width:731px;
+    }
+    #idvideo {
+        width:731px;
+    }
+    section#competence {
+        width:731px;
+    }
+    footer {
+        width:731px;
+    }
+    #moi {
+        width:731px;
+    }
+    }
+
+    @media screen and (max-width: 700px) { 
+        section#contact {
+            width:700px;
+        }
+        .projeth2 {
+            width:700px;
+        }
+        #slide1 {
+            width:700px;
+        }
+        #idvideo {
+            width:700px;
+        }
+        section#competence {
+            width:700px;
+        }
+        footer {
+width:700px;        
+}
+        #moi {
+            width:700px;
+        }
+        }
+
+@media screen and (max-width: 662px) { 
+section#contact {
+    width:662px;
+}
+.projeth2 {
+    width:662px;
+}
+#slide1 {
+    width:662px;
+}
+#idvideo {
+    width:662px;
+}
+section#competence {
+    width:662px;
+}
+footer {
+    width:662px;
+}
+#moi {
+    width:662px;
+}
+.banner {
+    top: 111px;
+    left: 149px;
+}
+}
+
+@media screen and (max-width: 613px) { 
+    section#contact {
+        width:613px;
+    }
+    .projeth2 {
+        width:613px;
+    }
+    #slide1 {
+        width:613px;
+    }
+    #idvideo {
+        width:613px;
+    }
+    section#competence {
+        width:613px;
+    }
+    footer {
+        width:613px;
+    }
+    #moi {
+        width:613px;
+    }
+    }
+
+    @media screen and (max-width: 591px) { 
+        section#contact {
+            width:591px;
+        }
+        .projeth2 {
+            width:591px;
+        }
+        #slide1 {
+            width:591px;
+        }
+        #idvideo {
+            width:591px;
+        }
+        section#competence {
+            width:591px;
+        }
+        footer {
+            width:591px;
+        }
+        #moi {
+            width:591px;
+        }
+        }
+
+        @media screen and (max-width: 564px) { 
+            section#contact {
+                width:564px;
+            }
+            .projeth2 {
+                width:564px;
+            }
+            #slide1 {
+                width:564px;
+            }
+            #idvideo {
+                width:564px;
+            }
+            section#competence {
+                width:564px;
+            }
+            footer {
+                width:564px;
+            }
+            #moi {
+                width:564px;
+            }
+            .banner {
+                top: 111px;
+                left: 149px;
+            }
+            }
 
 @media screen and (max-width: 530px) {
     .banner {
         top: 177px;
         left: 225px;
     }
+    .banner {
+        top: 83px;
+        left: 105px;
+    }
 }
 
+@media screen and (max-width: 500px) { 
+.banner {
+    top: 62px;
+    left: 103px;
+}
+section#contact {
+    width:412px;
+}
+.projeth2 {
+    width:412px;
+}
+#slide1 {
+    width:412px;
+}
+#idvideo {
+    width:412px;
+}
+section#competence {
+    width:412px;
+}
+footer {
+    width:412px;
+}
+.bannerimg {
+    width: 205px;
+}
 
-@media screen and (max-width: 390px) {
+#moi {
+    width: 412px;
+}
+}
+
+@media screen and (max-width: 400px) {
+    header#header {
+        width: 390px;
+    }
     h2.comp {
         font-size: 16px;
         margin-top: -46px;
     }
+    .bannerimg {
+    width: 185px;
+}
     div.card-grid {
-        width: 604px;
+        width: 370px;
         grid-template-columns: repeat(5, 1fr);
         margin-top: 45px;
     }
     #idvideo {
         width: 100%;
-        top:-64px;
+        top: -65px;
     }
     header {
         width: 100%;
         top:0;
     }
     #slide1 {
-background-size: 134%;
-        width: 739px;
+        background-size: 122%;
+        width: 390px;
     }
     section#competence {
-width: 739px;
+        width: 390px;
     }
     section#contact {
-width: 739px;
+        width: 390px;
     }
     footer {
-width: 739px;
+        width: 390px;
     }
-    .banner {
-        top: 155px;
-        left: 201px;
-    }
+
     div#typedtext {
         font-size: 16px;
     }
@@ -720,6 +872,7 @@ width: 739px;
     }
     #moi {
         padding: 12px 15px;
+        width: 390px;
     }
     form {
         flex-direction: column;
@@ -738,19 +891,75 @@ width: 739px;
         width: 159%;
     }
     .projeth2 {
-width: 739px;
+        width: 390px;
     }
-    .h4K {
-width: 739px;
-    }
-    .h4P {
-width: 739px;
-    }
-        .video2 {
-width: 739px;
-}
-.video1 {
-width: 739px;
-}
 }
 
+@media screen and (max-width: 320px) {
+    header#header {
+        width: 304px;
+    }
+    h2.comp {
+        font-size: 16px;
+        margin-top: -46px;
+    }
+    div.card-grid {
+        width: 290px;
+        grid-template-columns: repeat(5, 1fr);
+        margin-top: 45px;
+    }
+    #idvideo {
+        width: 100%;
+        top: -64px;
+    }
+    header {
+        width: 100%;
+        top:0;
+    }
+    #slide1 {
+        background-size: 122%;
+        width: 304px;
+    }
+    section#competence {
+        width: 304px;
+    }
+    section#contact {
+        width: 304px;
+    }
+    footer {
+        width: 304px;
+    }
+    .banner {
+        top: 72px;
+        left: 49px;
+    }
+    div#typedtext {
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+    }
+    #moi {
+        padding: 12px 15px;
+        width: 304px;
+    }
+    form {
+        flex-direction: column;
+        width: 95%;
+        }
+    form input {
+        width: 100%;
+        }
+    h2#contact {
+        font-size: 2em;
+    }
+    #wpadminbar {
+    display: none;
+    }
+    .hero-section {
+        width: 159%;
+    }
+    .projeth2 {
+        width: 304px;
+    }
+}
